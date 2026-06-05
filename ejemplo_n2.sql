@@ -9,7 +9,7 @@ fkpk_id_usu int(25) not null,
 primary key (fkpk_rol, fkpk_tdoc, fkpk_id_usu)
 );
 
-create table usuario
+create table usuarios
 (
 t_doc varchar(10) not null,
 n_doc_usu int(25) not null,
@@ -27,7 +27,7 @@ desc_tdociumento varchar(25) not null,
 estado boolean not null
 );
 
-create table roles
+create table rol
 (
 rol varchar(20) not null primary key,
 estado_rol boolean not null
